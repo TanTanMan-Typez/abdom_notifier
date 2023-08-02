@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>AbDom Notifier</title>
+        <script src="login.js"></script>
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="../Common Files/common.css">
+    </head>
+    <body>
+        <center>
+            <h1 class="fonttext">Absolutum Dominium Notifier</h1>
+            <h3 class="fonttext">Please login to continue</h3>
+            <div>
+                <input class="input" id="email" type="email" placeholder="Email" onchange="editted()">
+                &nbsp;
+                <input class="input" id="password" type="password" placeholder="Password" onchange="editted()">
+            </div>
+            <br>
+            <div>
+                <input id="checkbox" type="checkbox" onclick="checked()">
+                <p1 class="fonttext" onclick="tickbox()">I agree to the </p1>
+                <a class="fonttext" href="../Terms Page/terms.html" target="_blank">Terms & Conditions of Use</a>
+            </div>
+            <br>
+            <a class="fonttext" href="../Register Page/register.html">I do not have an account [Register]</a>
+            <br><br>
+            <button onclick="login()">Login</button>
+        </center>
+    </body>
+</html>

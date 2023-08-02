@@ -1,0 +1,32 @@
+section
+{
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  width: 40%;
+  height: fit-content;
+}
+
+p1
+{
+  font-size: 18px;
+}
+
+p
+{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a
+{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#title
+{
+  font-size: 45px;
+}
+
+#subtitle
+{
+  font-size: 22px;
+}

@@ -1,0 +1,39 @@
+p
+{
+    font-size: 25px;
+}
+
+h1
+{
+    font-size: 45px;
+}
+
+#update
+{
+    background-color: rgba(0, 150, 0, 1);
+}
+
+#update:hover
+{
+    background-color: rgba(0, 100, 0, 1);
+}
+
+#update:active
+{
+    background-color: rgba(0, 200, 0, 1);
+}
+
+#back
+{
+  background-color: rgba(150, 0, 0, 1);
+}
+
+#back:hover
+{
+    background-color: rgba(100, 0, 0, 1);
+}
+
+#back:active
+{
+    background-color: rgba(200, 0, 0, 1);
+}

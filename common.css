@@ -1,0 +1,44 @@
+body
+{
+   background-color: rgba(60, 60, 60, 1);
+}
+
+button
+{
+   height: 50px;
+   width: 150px;
+   border-radius: 15px;
+   border-style: solid;
+   border: 10%;
+   border-color: rgba(255, 255, 255, 1);
+   background-color: rgba(120, 120, 120, 1);
+   font-weight: 900;
+   font-size: 15px;
+   color: rgba(255, 255, 255, 1);
+}
+
+.fonttext
+{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+}
+
+.input
+{
+    border: 1px;
+    height: 25px;
+    width: 155px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button:hover
+{
+    background-color: rgba(60, 60, 60, 1);
+}
+
+button:active
+{
+    background-color: rgba(150, 150, 150, 1);
+}

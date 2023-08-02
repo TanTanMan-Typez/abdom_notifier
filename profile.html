@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>AbDom Notifier</title>
+        <script src="profile.js"></script>
+        <link rel="stylesheet" href="profile.css">
+        <link rel="stylesheet" href="../Common Files/common.css">
+    </head>
+    <body>
+        <center>
+            <h1 class="fonttext">Absolutum Dominium Notifier</h1>
+            <p class="fonttext">Profile Settings</p>
+            <div>
+                <input type="text" class="input" id="first_name" placeholder="New First Name" onchange="editted()">
+                &nbsp;&nbsp;&nbsp;
+                <input type="text" class="input" id="last_name" placeholder="New Last Name" onchange="editted()">
+            </div>
+            <br>
+            <div>
+                <input type="password" class="input" id="current_password" placeholder="Current Password" onchange="editted()">
+                &nbsp;&nbsp;&nbsp;
+                <input type="password" class="input" id="new_password" placeholder="New Password" onchange="editted()">
+            </div>
+            <br>
+            <div>
+                <input type="email" class="input" id="email" placeholder="New Email" onchange="editted()">
+                &nbsp;&nbsp;&nbsp;
+                <input type="number" class="input" id="phone_number" placeholder="New Phone Number" onchange="editted()">
+            </div>
+            <br>
+            <div>
+                <input type="number" class="input" id="medicare_number" placeholder="New Medicare Number" onchange="editted()">
+                &nbsp;&nbsp;&nbsp;
+                <input type="number" class="input" id="medicare_irn" placeholder="New Medicare IRN" onchange="editted()">
+            </div>
+            <br>
+            <div>
+                <p1 class="fonttext">Old/Current/New Medicare Card Expiry Date:</p1>
+                &nbsp;&nbsp;&nbsp;
+                <input type="month" class="input" id="medicare_card_expiry_date">
+            </div>
+            <br>
+            <div>
+                <input id="checkbox" type="checkbox" onclick="checked()">
+                <p1 class="fonttext" onclick="tickbox()">I agree to the </p1>
+                <a class="fonttext" href="../Terms Page/terms.html" target="_blank">Terms & Conditions of Use</a>
+            </div>
+            <br>
+            <button id="update" onclick="update()">Update Profile</button>
+            <br><br>
+            <button id="back" onclick="back()">Back to Home Page</button>
+        </center>
+    </body>
+</html>

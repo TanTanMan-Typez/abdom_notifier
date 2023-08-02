@@ -1,0 +1,27 @@
+h1
+{
+    font-size: 45px;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+.fonttext
+{
+    font-family:'Courier New', Courier, monospace;
+}
+
+body
+{
+   background-color: rgba(0, 255, 0, 0.3);
+}
+
+section
+{
+  background-color: rgba(100, 100, 100, 0.5);
+  border-radius: 20px;
+  width: 35%;
+  height: 70%;
+}

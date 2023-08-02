@@ -1,0 +1,36 @@
+button
+{
+   height: 50px;
+   width: 150px;
+   border-radius: 15px;
+   background-color: rgba(130, 216, 230, 1);
+}
+
+h1
+{
+    font-size: 45px;
+}
+
+h3
+{
+    font-size: 30px;
+}
+
+p1
+{
+    font-weight: bold;
+}
+
+a
+{
+    font-weight: bold;
+}
+
+.input
+{
+    border: 1px;
+    height: 25px;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+}

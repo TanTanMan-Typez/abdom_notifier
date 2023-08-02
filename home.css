@@ -1,0 +1,26 @@
+h1
+{
+  font-size: 45px;
+}
+
+.smallerbrtag
+{
+  display: block;
+  content: "";
+  margin-top: 20px;
+}
+
+#logout
+{
+  background-color: rgba(150, 0, 0, 1);
+}
+
+#logout:hover
+{
+    background-color: rgba(100, 0, 0, 1);
+}
+
+#logout:active
+{
+    background-color: rgba(200, 0, 0, 1);
+}
